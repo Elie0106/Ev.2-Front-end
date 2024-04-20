@@ -1,0 +1,124 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:salmon;
+}
+.contenedor-principal {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+nav {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 20px 0;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+}
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+.menu li a:hover {
+    color: #ff6f61;
+}
+.hero {
+    background-image: url('https://elie0106.github.io/guardado1/foto.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0;
+}
+.hero-texto h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.hero-texto h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.contenedor-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.titulo-card {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.contenedor-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.parrafo {
+    font-size: 16px;
+}
+.contenedor-galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+.contenedor-galeria img {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 2px solid #ff6f61;
+    transition: transform 0.3s ease;
+}
+.contenedor-galeria img:hover {
+    transform: scale(1.1);
+}
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.input-ancho {
+    width: calc(50% - 20px);
+}
+.textarea-ancho {
+    width: calc(100% - 20px);
+}
+.boton {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.boton:hover {
+    background-color: #d14033;
+}
+footer {
+    background-color: #1e1e1e;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
